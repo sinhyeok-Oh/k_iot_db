@@ -60,7 +60,7 @@ where
     points > 200;
     
 # 1) 관계 연산자
-# : 이상, 이하, 초과, 미만, 일차(=), 불일치(!=)
+# : 이상, 이하, 초과, 미만, 일치(=), 불일치(!=)
 select * from `members`
 where
 	name = 'Minji';
@@ -189,12 +189,3 @@ where
     
 select curdate();
 select now();
-
-    
-
-    
-        
-    
-    
-    
-

@@ -78,7 +78,7 @@ select * from `members`
 order by
 	name desc;# 이름 순 정렬( 내림차순)
 
-# cf) 정렬된 데이터를 기분으로 추가 정렬 ( 콤마로 정렬 상태 나열)
+# cf) 정렬된 데이터를 기본으로 추가 정렬 ( 콤마로 정렬 상태 나열)
 select * from `members`
 order by 
 	grade desc, points desc;
@@ -114,11 +114,3 @@ select * from `members`;
 
 select distinct area_code from `members`;
 select distinct grade from `members`;
-
-
-
-
-
-
-
-
