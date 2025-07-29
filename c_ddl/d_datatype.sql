@@ -13,7 +13,7 @@
         EX) 수성 시간, 타이머 등
 	
     - datatime (8byte)
-		: 나짜와 시간을 저장 / YYYY-MM-DD HH:mm:SS 형식
+		: 날짜와 시간을 저장 / YYYY-MM-DD HH:mm:SS 형식
         EX) 주문 시간 / 가입 일자 등
 */
 
